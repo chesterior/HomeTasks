@@ -160,6 +160,7 @@ public class Tasks1 {
             System.out.println(Arrays.deepToString(newArr));
             System.out.println("Максимальный элемент массива = " + max1);*/
 
+           
 
 
     }
