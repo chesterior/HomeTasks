@@ -160,8 +160,15 @@ public class Tasks1 {
             System.out.println(Arrays.deepToString(newArr));
             System.out.println("Максимальный элемент массива = " + max1);*/
 
-           
 
+           // Задание 5
+            int[][] newArr = new int[5][8];
+            for (int i = 0; i < newArr.length; i++) {                      // выполнил часть задания, не знаю как вывести в консоль значение максимального элемента
+                for(int j= 0; j < newArr[i].length; j++) {
+                    newArr[i][j] = (int) (Math.random() * 199) - 99;
+                }
+            }
+            System.out.println(Arrays.deepToString(newArr));
 
     }
 }
