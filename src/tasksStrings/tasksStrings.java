@@ -26,9 +26,6 @@ public class tasksStrings {
         String[] words2 = str5.split(" ");
         System.out.println("Самое длинное слово: " + maxLengthWord(words1));
         System.out.println("Самое длинное слово: " + maxLengthWord(words2));
-
-
-
     }
 
     private static String maxLengthWord(String[] s) {
